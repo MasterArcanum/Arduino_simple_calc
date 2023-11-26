@@ -21,9 +21,5 @@ This code was written by <a href="https://github.com/MasterArcanum"><strong>Mast
 <h2>P.S</h2>
 Please credit the author of this code when demonstrating or using it in public projects. Thank you.
 <h2>Connection diagram</h2>
-Insert a link to a schematic diagram of the Arduino, keypad, and LCD display connections.
 
 ![Scheme](https://github.com/MasterArcanum/Arduino_simple_calc/blob/main/simple_calc.png)
-
-<h2>Example of Calculator Interface</h2>
-Insert a link to an image showing the calculator interface on the LCD display.
