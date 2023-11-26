@@ -1,4 +1,4 @@
-Simple Arduino Calculator Project
+# Simple Arduino Calculator Project
 This Arduino project is designed to create a basic calculator using an Arduino board. The code enables the Arduino to perform simple arithmetic operations like addition, subtraction, multiplication, and division.
 
 <h2>How to use</h2>
