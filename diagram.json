@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-nano", "id": "nano", "top": 72, "left": -86.9, "attrs": {} },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": 195.14,
+      "left": -66.97,
+      "attrs": { "i2cAddress": "0x3c" }
+    },
+    { "type": "wokwi-membrane-keypad", "id": "keypad1", "top": -405.2, "left": -244, "attrs": {} }
+  ],
+  "connections": [
+    [ "nano:2", "keypad1:C4", "purple", [ "v-124.8", "h-105.6", "v-19.2" ] ],
+    [ "nano:3", "keypad1:C3", "green", [ "v-115.2", "h-105.45" ] ],
+    [ "nano:4", "keypad1:C2", "cyan", [ "v-105.6", "h-105.6" ] ],
+    [ "nano:5", "keypad1:C1", "white", [ "v-96", "h-105.5" ] ],
+    [ "nano:6", "keypad1:R4", "yellow", [ "v-86.4", "h-105.4" ] ],
+    [ "nano:7", "keypad1:R3", "violet", [ "v-76.8", "h-105.3" ] ],
+    [ "nano:8", "keypad1:R2", "gray", [ "v-67.2", "h-105.6" ] ],
+    [ "keypad1:R1", "nano:9", "red", [ "v86.4", "h105.6" ] ],
+    [ "nano:GND.1", "oled1:GND", "black", [ "v38.4", "h-86.4" ] ],
+    [ "oled1:SDA", "nano:A4", "magenta", [ "v0" ] ],
+    [ "oled1:SCL", "nano:A5", "yellow", [ "v-57.6", "h19.5" ] ],
+    [ "oled1:VCC", "nano:3.3V", "red", [ "v-48", "h0.15" ] ]
+  ],
+  "dependencies": {}
+}
