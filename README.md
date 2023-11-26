@@ -6,7 +6,7 @@ Upload the .ino file to your Arduino board. Make sure that the keypad and LCD sc
 <h2>Hardware Requirements</h2>
 - Arduino compatible board
 - 4x4 Keypad
-- LCD display compatible with the Hitachi HD44780 driver
+- LCD display 128*64
 - Connecting wires
 <h2>Required Libraries</h2>
 - Keypad.h
