@@ -17,7 +17,7 @@ After uploading the sketch, use the keypad to enter numbers and operations. The 
 <h2>License</h2>
 This project is released under the MIT License.
 <h2>Authors and Acknowledgements</h2>
-This code was written by <a href="https://github.com/MasterArcanum">. Special thanks to the creators of the Keypad and LiquidCrystal libraries for facilitating the interface with the keypad and LCD display.
+This code was written by <a href="https://github.com/MasterArcanum"><strong>MasterArcanum</strong></a>. Special thanks to the creators of the Keypad and LiquidCrystal libraries for facilitating the interface with the keypad and LCD display.
 <h2>P.S</h2>
 Please credit the author of this code when demonstrating or using it in public projects. Thank you.
 <h2>Connection diagram</h2>
